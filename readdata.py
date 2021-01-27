@@ -7,7 +7,7 @@ def read_data(columns, types={}, filename='data/wxobs20170821.txt'):
         types: A dictionary of column names mapping to types to which to convert each column of data
         filename: The string path pointing to the CU Boulder Weather Station data file
     """
-    
+
     # Initialize my data variable
     data = {}
     for column in columns:
